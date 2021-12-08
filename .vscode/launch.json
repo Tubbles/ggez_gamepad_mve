@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'remusys'",
+            "name": "Debug executable 'ggez_gamepad_mve'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=remusys",
-                    "--package=remusys"
+                    "--bin=ggez_gamepad_mve",
+                    "--package=ggez_gamepad_mve"
                 ],
                 "filter": {
-                    "name": "remusys",
+                    "name": "ggez_gamepad_mve",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'remusys'",
+            "name": "Debug unit tests in executable 'ggez_gamepad_mve'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=remusys",
-                    "--package=remusys"
+                    "--bin=ggez_gamepad_mve",
+                    "--package=ggez_gamepad_mve"
                 ],
                 "filter": {
-                    "name": "remusys",
+                    "name": "ggez_gamepad_mve",
                     "kind": "bin"
                 }
             },
